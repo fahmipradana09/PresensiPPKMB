@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AbsensiPPKMB</string>
+    <string name="title_login_page">Selamat Datang Di Presensi PPKMB</string>
+    <string name="message_login_page">Ayo Login Rek !!</string>
+    <string name="Username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="Tanggal">Jum\'at, 9 Mei</string>
+    <string name="app_nameDashboard">PPKMB 2022</string>
+    <string name="logout">Logout</string>
+    <string name="angka">0</string>
+    <string name="hadir">Hadir</string>
+    <string name="izin">Izin</string>
+    <string name="sakit">Sakit</string>
+    <string name="alpa">Alpa</string>
+    <string name="btnScanDatang">Scan Datang</string>
+    <string name="btnScanPulang">Scan Pulang</string>
+    <string name="btnPresensiManual">Presensi Manual</string>
+    <string name="btnData">Data Mahasiswa</string>
+    <string name="btnEditPresensi">Edit Presensi</string>
+    <string name="btnHistory">Histori</string>
+    <string name="ScanMasukPage">Camera Scan Masuk</string>
+    <string name="ScanKeluarPage">Scan Keluar Page</string>
+    <string name="PresensiManualPage">Presensi Manual</string>
+</resources>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard.DashboardUtama">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/Tanggal"
+        android:fontFamily="@font/montserrat_regular"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/app_nameDashboard"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:fontFamily="@font/montserrat_bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDate" />
+
+    <TextView
+        android:id="@+id/tv_logoutDashboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/logout"
+        android:fontFamily="@font/montserrat_regular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/llAngka"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvAppName">
+
+        <TextView
+            android:id="@+id/tvHadirAngka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/angka" />
+
+        <TextView
+            android:id="@+id/tvIzinAngka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/angka" />
+
+        <TextView
+            android:id="@+id/tvSakitAngka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/angka" />
+
+        <TextView
+            android:id="@+id/tvAlpaAngka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/angka" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llKeterangan"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llAngka">
+
+        <TextView
+            android:id="@+id/tvHadir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/hadir" />
+
+        <TextView
+            android:id="@+id/tvIzin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/izin" />
+
+        <TextView
+            android:id="@+id/tvSakit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/sakit" />
+
+        <TextView
+            android:id="@+id/tvAlpa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/alpa" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="608dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/llKeterangan">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/BtnScanDatang"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/roundedbutton"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="@string/btnScanDatang"
+                    android:textSize="12sp" />
+
+                <Button
+                    android:id="@+id/btnScanPulang"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/roundedbutton"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="@string/btnScanPulang"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnPresensiManual"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/roundedbutton"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="@string/btnPresensiManual"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/btnData"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/roundedbutton"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="@string/btnData"
+                    android:textSize="8sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnEditPresensi"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/roundedbutton"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="@string/btnEditPresensi"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/btnHistory"
+                    android:layout_width="100dp"
+                    android:layout_height="99dp"
+                    android:layout_margin="20dp"
+                    android:background="@drawable/roundedbutton"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:text="@string/btnHistory"
+                    android:textSize="8sp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
