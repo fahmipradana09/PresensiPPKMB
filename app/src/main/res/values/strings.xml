@@ -22,4 +22,13 @@
     <string name="ScanMasukPage">Camera Scan Masuk</string>
     <string name="ScanKeluarPage">Scan Keluar Page</string>
     <string name="PresensiManualPage">Presensi Manual</string>
+    <string name="cd_switch_camera">button to switch camera</string>
+    <string name="error_showing_camera">Error showing camera</string>
+    <string name="Mendeteksi">Mendeteksi</string>
+    <string name="error_empty_email">Empty Email</string>
+    <string name="length_character">Password must be more than 6 characters</string>
+    <string name="title_welcome_page">Selamat datang di Presensi PPKMB</string>
+    <string name="getStarted">Yuk Mulai!</string>
+    <string name="message_welcome_page">yntkts</string>
+    <string name="permission_not_granted">Permission not granted</string>
 </resources>

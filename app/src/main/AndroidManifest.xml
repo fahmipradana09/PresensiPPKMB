@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.absensippkmb">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,22 +17,26 @@
         android:theme="@style/Theme.AbsensiPPKMB"
         tools:targetApi="31">
         <activity
-            android:name=".Dashboard.PresensiManual"
+            android:name=".Admin.Dashboard.PresensiManual"
             android:exported="false" />
         <activity
-            android:name=".Dashboard.CameraScanKeluar"
+            android:name=".Admin.Dashboard.CameraScanKeluar"
             android:exported="false" />
         <activity
-            android:name=".Dashboard.CameraScanMasuk"
+            android:name=".Admin.Dashboard.CameraScanMasuk"
             android:exported="false" />
         <activity
-            android:name=".Dashboard.DashboardUtama"
+            android:name=".Admin.Dashboard.DashboardUtama"
+            android:exported="false" />
+
+        <activity
+            android:name=".Admin.WelcomeFragment"
+            android:exported="false"/>
+        <activity
+            android:name=".Admin.LoginFragment"
             android:exported="false" />
         <activity
-            android:name=".LoginFragment"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".Admin.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

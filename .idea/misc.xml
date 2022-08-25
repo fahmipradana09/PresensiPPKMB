@@ -3,16 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AbsensiPPKMB/app/src/main/res/drawable/ic_baseline_flip_camera_android_24.xml" value="0.1795" />
         <entry key="..\:/AbsensiPPKMB/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2165" />
+        <entry key="..\:/AbsensiPPKMB/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/AbsensiPPKMB/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
         <entry key="..\:/AbsensiPPKMB/app/src/main/res/drawable/roundbutton.xml" value="0.2275" />
         <entry key="..\:/AbsensiPPKMB/app/src/main/res/drawable/roundedbutton.xml" value="0.2165" />
+        <entry key="..\:/AbsensiPPKMB/app/src/main/res/drawable/tes.xml" value="0.1545" />
         <entry key="..\:/AbsensiPPKMB/app/src/main/res/font/font.xml" value="0.2833333333333333" />
         <entry key="..\:/AbsensiPPKMB/app/src/main/res/layout/activity_camerascankeluar.xml" value="0.22760416666666666" />
-        <entry key="..\:/AbsensiPPKMB/app/src/main/res/layout/activity_camerascanmasuk.xml" value="0.264" />
-        <entry key="..\:/AbsensiPPKMB/app/src/main/res/layout/activity_dashboard_utama.xml" value="0.4" />
+        <entry key="..\:/AbsensiPPKMB/app/src/main/res/layout/activity_camerascanmasuk.xml" value="0.1" />
+        <entry key="..\:/AbsensiPPKMB/app/src/main/res/layout/activity_dashboard_utama.xml" value="0.2" />
         <entry key="..\:/AbsensiPPKMB/app/src/main/res/layout/activity_login_fragment.xml" value="0.22826086956521738" />
         <entry key="..\:/AbsensiPPKMB/app/src/main/res/layout/activity_main.xml" value="0.22760416666666666" />
         <entry key="..\:/AbsensiPPKMB/app/src/main/res/layout/activity_presensi_manual.xml" value="0.264" />
+        <entry key="..\:/AbsensiPPKMB/app/src/main/res/layout/fragment_welcome.xml" value="0.2" />
+        <entry key="..\:/AbsensiPPKMB/app/src/main/res/layout/tes.xml" value="0.1322463768115942" />
       </map>
     </option>
   </component>

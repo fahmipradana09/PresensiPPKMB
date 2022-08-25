@@ -4,8 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Dashboard.CameraScanMasuk">
+    tools:context=".Admin.Dashboard.CameraScanMasuk">
 
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/camScanner"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginTop="20dp"
+        app:autoFocusButtonColor="@color/white"
+        app:autoFocusButtonVisible="true"
+        app:flashButtonColor="@color/white"
+        app:flashButtonVisible="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNamePage" />
     <TextView
         android:id="@+id/tvDate"
         android:layout_width="wrap_content"
@@ -29,15 +41,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvDate" />
 
-    <androidx.camera.view.PreviewView
-        android:id="@+id/view_finder"
-        android:layout_width="345dp"
-        android:layout_height="467dp"
-        android:layout_marginTop="44dp"
+    <TextView
+        android:id="@+id/tvDetec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/Mendeteksi"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvNamePage" />
+        app:layout_constraintTop_toBottomOf="@+id/camScanner" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
